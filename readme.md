@@ -17,8 +17,6 @@ A production-grade document intelligence system that leverages state-of-the-art 
 - [Configuration](#configuration)
 - [API Reference](#api-reference)
 - [Performance](#performance)
-- [Development](#development)
-- [Contributing](#contributing)
 
 ## Architecture
 
@@ -246,56 +244,6 @@ Assigns importance rankings based on persona-task relevance.
 - Memory-efficient chunking prevents OOM errors
 - Parallel processing where CPU cores allow
 - Streaming PDF parsing reduces memory footprint
-
-## Development
-
-### Local Setup
-
-```bash
-pip install -r requirements.txt
-python download_models.py  # Pre-cache models
-python solution.py
-```
-
-### Testing
-
-```bash
-# Unit tests
-pytest tests/
-
-# Integration tests with constraints
-docker build -t test-runner . && docker run --network none test-runner
-
-# Performance validation
-python benchmark.py --max-time 60 --cpu-only
-```
-
-### Code Quality
-
-- Type hints throughout codebase
-- Comprehensive error handling with graceful degradation
-- Modular architecture supporting offline execution
-- Docker-optimized deployment with model pre-caching
-- Resource monitoring and constraint enforcement
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Ensure compliance with system constraints
-4. Add tests validating performance requirements
-5. Commit changes (`git commit -m 'Add amazing feature'`)
-6. Push to branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
-
-### Development Standards
-
-- Follow PEP 8 style guidelines
-- Add type annotations for new functions
-- Include unit tests for new features
-- Validate against challenge1b_output.json schema
-- Test offline execution capabilities
-- Verify performance constraints
 
 ## License
 
