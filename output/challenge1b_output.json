@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-27T14:37:56"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Comprehensive Guide to Restaurants and Hotels in the South of France",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Ultimate Guide to Activities and Things to Do in the South of France",
+            "importance_rank": 2,
+            "page_number": 3
+        },
+        {
+            "document": "South of France - History.pdf",
+            "section_title": "A Historical Journey Through the South of France",
+            "importance_rank": 3,
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "A Culinary Journey Through the South of France",
+            "importance_rank": 4,
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Comprehensive Guide to Major Cities in the South of France",
+            "importance_rank": 5,
+            "page_number": 5
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Restaurants Budget-Friendly Restaurants \u2022 Chez Pipo (Nice): Famous for its socca, a traditional Ni\u00e7oise chickpea pancake, this casual eatery o\ufb00ers delicious and a\ufb00ordable local dishes. The rustic ambiance and friendly service make it a favorite among locals and tourists alike. \u2022 La Merenda (Nice): A small, cozy restaurant serving authentic Ni\u00e7oise cuisine. The menu changes with the seasons, ensuring fresh and flavorful dishes. Reservations are a must due to its popularity and limited seating. \u2022 Chez Etienne (Marseille): Known for its simple yet delicious pizzas and grilled meats, this family-owned restaurant is a local favorite. The lively atmosphere and hearty portions make it a great spot for a casual meal. \u2022 Le Bistrot du Paradou (Paradou): A charming bistro o\ufb00ering a daily fixed menu with hearty Proven\u00e7al dishes at reasonable prices. The warm, welcoming environment and generous servings make it a must-visit. \u2022 Le Comptoir du March\u00e9 (Nice): This bistro",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "former convent. Historical Sites \u2022 N\u00eemes: Walk across the ancient Roman aqueduct, Pont du Gard. \u2022 Avignon: Explore the largest Gothic palace in Europe, Palais des Papes. \u2022 Carcassonne: Wander through the medieval citadel with its double walls and 52 towers. \u2022 Arles: Visit the Roman amphitheater and ancient theater. \u2022 Orange: Explore the well-preserved Roman theater and triumphal arch. \u2022 Aigues-Mortes: Discover the medieval walled town and its salt marshes. \u2022 Grasse: Visit the perfume factories and learn about the history of fragrance production.",
+            "page_number": 3
+        },
+        {
+            "document": "South of France - History.pdf",
+            "refined_text": "founded in the 13th century, is known for its beautiful cloister and the relics of Saint Thomas Aquinas. \u2022 Pont Neuf: Despite its name, which means \"New Bridge,\" this is the oldest bridge in Toulouse. It was completed in the 17th century and o\ufb00ers picturesque views of the Garonne River. \u2022 Canal du Midi: A UNESCO World Heritage site, this canal connects the Garonne River to the Mediterranean Sea and was a major engineering feat of the 17th century. \u2022 Aeroscopia Museum: Reflecting Toulouse's role as a center of the aerospace industry, this museum showcases the history of aviation with exhibits including the Concorde and Airbus aircraft.",
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "refined_text": "features dishes that highlight the region's fresh, seasonal ingredients. \u2022 Le Mirazur (Menton): Ranked among the world's best restaurants, Le Mirazur o\ufb00ers a unique dining experience with a focus on fresh, local ingredients and innovative dishes. Chef Mauro Colagreco's cuisine is inspired by the surrounding landscape, with many ingredients sourced from the restaurant's own gardens. The menu changes with the seasons, ensuring that each visit is a new and exciting experience. \u2022 Chez Pipo (Nice): A local favorite for Socca, this casual eatery is perfect for a quick and delicious snack. Chez Pipo has been serving Socca since 1923 and is a beloved institution in Nice. The restaurant's simple, no-frills approach allows the quality of the Socca to shine through. \u2022 L'Atelier de Jean-Luc Rabanel (Arles): A Michelin-starred restaurant known for its creative and contemporary take on Proven\u00e7al cuisine. Chef Jean-Luc Rabanel's dishes are a feast for the senses, combining",
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "o\ufb00ers panoramic views of Nice and the Mediterranean. It was once the site of a medieval castle, which was destroyed in the 18th century. \u2022 Old Town (Vieux Nice): The historic center of Nice is a labyrinth of narrow streets, baroque churches, and bustling markets. Don't miss the Cours Saleya market, where you can find fresh produce, flowers, and local delicacies. \u2022 Matisse Museum: Dedicated to the works of Henri Matisse, who spent much of his life in Nice, this museum features a comprehensive collection of his paintings, sculptures, and drawings. Hidden Gems \u2022 Russian Orthodox Cathedral: Visit the stunning Russian Orthodox Cathedral, a unique architectural gem in Nice. \u2022 Marc Chagall National Museum: Explore the works of Marc Chagall at this dedicated museum. \u2022 Parc Phoenix: Discover the botanical wonders at Parc Phoenix, a beautiful garden and park. Cultural Highlights Nice is renowned for its vibrant cultural scene, with",
+            "page_number": 5
+        }
+    ]
+}
